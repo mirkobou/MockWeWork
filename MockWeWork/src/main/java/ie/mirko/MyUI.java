@@ -65,7 +65,7 @@ public class MyUI extends UI {
         headline.setContentMode(com.vaadin.shared.ui.ContentMode.HTML);
 
         final TextField name = new TextField();
-        name.setCaption("Name of arty");
+        name.setCaption("Name of party");
 
         Slider people = new Slider(0, 200);
         people.setCaption("How many people are invited to this party");
